@@ -90,7 +90,7 @@ Go to `http://localhost:9876/session/XXX`, when XXX is your phone number, by exa
 
 The qrcode is send to configured webhook to, you can read in chatwoot inbox, in created chat with de same number of connection.
 
-### Qrcode with websocket
+### Qrcode with websocket 
 Use the endpoint `/ws` and listen event `broadcast`, the object with type `qrcode` has a `content` attribute with de base64 url of qrcode
 ```js
 import { io } from 'socket.io-client';
