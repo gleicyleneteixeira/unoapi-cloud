@@ -27,7 +27,7 @@ The media files are saved in file system at folder data with the session or in s
   - The API pre‑asserts sessions for group participants prioritizing LIDs, with fallbacks and a final addressingMode toggle on failures such as ack 421.
 
 
-### JIDMAP endpoints (inspect PN?LID per session)
+### JIDMAP endpoints (inspect PN?LID per session) 
 
 - List mappings with optional filters/pagination:
 
